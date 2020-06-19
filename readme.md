@@ -12,14 +12,14 @@
 - 网络模型
 ***
     - OSI参考模式:开放系统互连参考模型（Open System Interconnect）
-    ! [Image text](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/OSI%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B.png)
+    ![1](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/OSI%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B.png)
     - TCP/IP参考模型:传输控制/网际协议（Transfer Controln Protocol/Internet Protocol） 
-    ! [Image text](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/TCP%E6%88%96IP%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B.png)
+    ![2](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/TCP%E6%88%96IP%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B.png)
 - IP的地址的表示方法
 ***
     - IP地址：32位，由4个8位二进制数组成
     - IP表示方法：点分十进制
-    ! [Image text](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/IP%E8%A1%A8%E7%A4%BA%E6%96%B9%E6%B3%95.png)
+    ![3](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/IP%E8%A1%A8%E7%A4%BA%E6%96%B9%E6%B3%95.png)
     - IP地址 = 网络ID + 主机ID
         - 网络ID：标识计算机或网络设备所在的网段
         - 主机ID：标识特定主机或网络设备
@@ -33,7 +33,7 @@
 - IP地址所对应的对象>InetAddress
 ***
     - 类InetAddress
-    ! [Image text](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/%E7%B1%BBInetAddress.png)
+    ![4](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/%E7%B1%BBInetAddress.png)
     - 类InetAddress的方法
     public static InetAddress getLocalHost() 获取主机名和IP地址
     public String getHostAddress() 获取IP地址
@@ -60,5 +60,5 @@
 ***
     - 进行网络通信时，Socket需要借助数据流来完成数据的传递工作 
     - 客户端和服务端 
-    ! [Image text](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/%E5%AE%A2%E6%88%B7%E7%AB%AF.png)
-    ! [Image text](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/%E6%9C%8D%E5%8A%A1%E7%AB%AF.png)
+    ![5](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/%E5%AE%A2%E6%88%B7%E7%AB%AF.png)
+    ![6](https://github.com/Zzznopay/TCP-UDPInternet/blob/master/img-folder/%E6%9C%8D%E5%8A%A1%E7%AB%AF.png)
