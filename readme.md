@@ -8,7 +8,7 @@
             有效端口0-65536
     - 通信协议：通信的规则
             TCP，UDP
-            
+     ![image](https://github.com/AngelSXD/sxd_first_repository/blob/master/images/20160615165142.png)       
 - 网络模型
 ***
     - OSI参考模式:开放系统互连参考模型（Open System Interconnect）
